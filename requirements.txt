@@ -1,0 +1,16 @@
+# Python >= 3.10
+# Default CUDA runtime dependencies (see pyproject.toml: gpu extra).
+torch
+ninetoothed
+nvidia-ml-py
+# Directly imported by kernel implementations.
+triton
+
+# Repository tests (see pyproject.toml: dev extra).
+pytest>=8
+
+# Ascend NPU: follow docs/ascend-validation.md instead of installing this
+# CUDA dependency set. Standard triton and triton-ascend cannot coexist.
+# The validated Ascend environment uses torch==2.10.0+cpu,
+# torch_npu==2.10.0.post6, triton-ascend==3.2.0, pybind11==3.1.0,
+# CANN 9.0.0 and a local NineToothed checkout with Ascend support.
