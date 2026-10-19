@@ -9,13 +9,18 @@ LENGTHS = (32, 40)
 
 def make_inputs(length, device="cuda", dtype=torch.float32):
     base = torch.randn((8, 4, length), device=device, dtype=dtype) * 0.5
-    values, indices = F.max_pool1d(base, kernel_size=2, stride=2, return_indices=True)
-    return values, indices
+    # Ascend pooling returns a packed mask rather than PyTorch integer indices.
+    pool_input = base.cpu() if base.device.type == "npu" else base
+    values, indices = F.max_pool1d(pool_input, kernel_size=2, stride=2, return_indices=True)
+    return values.to(device), indices.to(device)
 
 
 def run_pytorch(*inputs, output_length):
     values, indices = inputs
-    return F.max_unpool1d(values, indices, kernel_size=2, stride=2, padding=0, output_size=(values.shape[0], values.shape[1], output_length))
+    device = values.device
+    if device.type == "npu":
+        values, indices = values.cpu(), indices.cpu()
+    return F.max_unpool1d(values, indices, kernel_size=2, stride=2, padding=0, output_size=(values.shape[0], values.shape[1], output_length)).to(device)
 
 
 def check(atol=1.0e-6, rtol=1.0e-6):

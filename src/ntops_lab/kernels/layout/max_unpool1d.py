@@ -34,6 +34,6 @@ def run(*inputs, kernel_size=2, stride=2, padding=0, output_size=None):
         raise ValueError("max_unpool1d currently supports kernel_size=2, stride=2, padding=0")
     out_l = int(output_size[-1]) if output_size is not None else x.shape[2] * stride
     out = torch.empty((x.shape[0], x.shape[1], out_l), device=x.device, dtype=x.dtype)
-    positions = torch.arange(out_l, device=x.device, dtype=indices.dtype).view(1, 1, out_l).expand(x.shape[0], x.shape[1], out_l)
+    positions = torch.arange(out_l, device=x.device, dtype=torch.int64).view(1, 1, out_l).expand(x.shape[0], x.shape[1], out_l)
     _kernel(x.shape[2], out_l)(x, indices, positions, out)
     return out

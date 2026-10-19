@@ -1,0 +1,5622 @@
+[
+  {
+    "name": "test_operator_matches_pytorch[_safe_softmax]",
+    "status": "passed",
+    "seconds": "8.868"
+  },
+  {
+    "name": "test_operator_matches_pytorch[absolute]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_avg_pool2d]",
+    "status": "passed",
+    "seconds": "0.877"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_elu]",
+    "status": "passed",
+    "seconds": "0.847"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.654"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_relu6]",
+    "status": "passed",
+    "seconds": "0.927"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_softsign]",
+    "status": "passed",
+    "seconds": "0.668"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm]",
+    "status": "passed",
+    "seconds": "0.502"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_gelu]",
+    "status": "passed",
+    "seconds": "1.038"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.483"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.493"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_square]",
+    "status": "passed",
+    "seconds": "0.484"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addcmul]",
+    "status": "passed",
+    "seconds": "0.094"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_elu]",
+    "status": "passed",
+    "seconds": "0.706"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.308"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.305"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.311"
+  },
+  {
+    "name": "test_operator_matches_pytorch[all_dim]",
+    "status": "passed",
+    "seconds": "0.203"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amax_width32]",
+    "status": "passed",
+    "seconds": "0.200"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amin_width64]",
+    "status": "passed",
+    "seconds": "0.212"
+  },
+  {
+    "name": "test_operator_matches_pytorch[any]",
+    "status": "passed",
+    "seconds": "0.122"
+  },
+  {
+    "name": "test_operator_matches_pytorch[arcsinh_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan]",
+    "status": "passed",
+    "seconds": "0.125"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.140"
+  },
+  {
+    "name": "test_operator_matches_pytorch[avg_pool3d]",
+    "status": "passed",
+    "seconds": "1.848"
+  },
+  {
+    "name": "test_operator_matches_pytorch[binary_cross_entropy_with_logits]",
+    "status": "passed",
+    "seconds": "0.120"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and_tensor]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_left_shift_scalar_out]",
+    "status": "passed",
+    "seconds": "0.084"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_right_shift]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_xor_out]",
+    "status": "passed",
+    "seconds": "0.086"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_cube]",
+    "status": "passed",
+    "seconds": "0.280"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_relu]",
+    "status": "passed",
+    "seconds": "0.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_square]",
+    "status": "passed",
+    "seconds": "0.691"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ceil_out]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[center_width64]",
+    "status": "passed",
+    "seconds": "0.282"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp_]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clip]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv3d]",
+    "status": "passed",
+    "seconds": "1.240"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv_transpose3d]",
+    "status": "passed",
+    "seconds": "1.715"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign_scalar_left]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cos_out]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cosine_similarity]",
+    "status": "passed",
+    "seconds": "0.476"
+  },
+  {
+    "name": "test_operator_matches_pytorch[deg2rad_out]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[dropout]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[elu_]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq_scalar]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[erf_]",
+    "status": "passed",
+    "seconds": "0.057"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp2_out]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[expm1_out]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fix]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_kvpacked_causal]",
+    "status": "passed",
+    "seconds": "3.740"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_2d]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_dim1_4d]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_divide]",
+    "status": "passed",
+    "seconds": "0.151"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_out]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmod]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[frac]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_celu]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_gelu_out]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardswish]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_leaky_relu_out]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_relu]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_sigmoid_out]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softshrink]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_tanhshrink_out]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_clamp]",
+    "status": "passed",
+    "seconds": "0.373"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.381"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_neg]",
+    "status": "passed",
+    "seconds": "0.378"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_softplus]",
+    "status": "passed",
+    "seconds": "0.956"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.387"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_gelu]",
+    "status": "passed",
+    "seconds": "0.363"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.349"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_sigmoid]",
+    "status": "passed",
+    "seconds": "0.340"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_square]",
+    "status": "passed",
+    "seconds": "0.332"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_abs_mul_add]",
+    "status": "passed",
+    "seconds": "0.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_cube_mul]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_gelu_add_mul]",
+    "status": "passed",
+    "seconds": "0.229"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardshrink_mul_add]",
+    "status": "passed",
+    "seconds": "0.108"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardswish_mul]",
+    "status": "passed",
+    "seconds": "0.091"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_leaky_relu_add_mul]",
+    "status": "passed",
+    "seconds": "0.116"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_logsigmoid_mul_add]",
+    "status": "passed",
+    "seconds": "0.102"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_neg_mul]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu_add_mul]",
+    "status": "passed",
+    "seconds": "0.102"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_sigmoid_mul_add]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softplus_mul]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softsign_add_mul]",
+    "status": "passed",
+    "seconds": "0.131"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_square_mul_add]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanhshrink_mul]",
+    "status": "passed",
+    "seconds": "0.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge_scalar]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gelu]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_abs]",
+    "status": "passed",
+    "seconds": "0.334"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_hardshrink]",
+    "status": "passed",
+    "seconds": "0.336"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.926"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_silu]",
+    "status": "passed",
+    "seconds": "0.341"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.323"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal_scalar]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_scalar]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[grouped_mm]",
+    "status": "passed",
+    "seconds": "0.257"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardtanh]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot]",
+    "status": "passed",
+    "seconds": "0.131"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot_scalar_out]",
+    "status": "passed",
+    "seconds": "0.080"
+  },
+  {
+    "name": "test_operator_matches_pytorch[isfinite]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_l2_ratio_width16]",
+    "status": "passed",
+    "seconds": "0.369"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_norm_width16]",
+    "status": "passed",
+    "seconds": "0.290"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_eps_width32]",
+    "status": "passed",
+    "seconds": "0.230"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_width64]",
+    "status": "passed",
+    "seconds": "0.224"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_cube]",
+    "status": "passed",
+    "seconds": "0.560"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_hardswish]",
+    "status": "passed",
+    "seconds": "0.581"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_relu]",
+    "status": "passed",
+    "seconds": "0.564"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_softshrink]",
+    "status": "passed",
+    "seconds": "0.572"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le_scalar_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lerp_out]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal_scalar_left]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_scalar_left]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log1p_]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_mean_exp_width32]",
+    "status": "passed",
+    "seconds": "1.012"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_softmax]",
+    "status": "passed",
+    "seconds": "0.771"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp]",
+    "status": "passed",
+    "seconds": "0.087"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp_scalar_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_and_scalar_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_or_out]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_xor_scalar]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsigmoid]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsumexp_width8]",
+    "status": "passed",
+    "seconds": "0.262"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_abs_width32]",
+    "status": "passed",
+    "seconds": "0.274"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_keepdim_width32]",
+    "status": "passed",
+    "seconds": "0.239"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_unpool1d]",
+    "status": "passed",
+    "seconds": "4.166"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_width64]",
+    "status": "passed",
+    "seconds": "0.195"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum_scalar_left]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_abs_width32]",
+    "status": "passed",
+    "seconds": "0.271"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_keepdim_width16]",
+    "status": "passed",
+    "seconds": "0.232"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_relu_width32]",
+    "status": "passed",
+    "seconds": "0.193"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_sigmoid_width64]",
+    "status": "passed",
+    "seconds": "0.209"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_square_width8]",
+    "status": "passed",
+    "seconds": "0.223"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min]",
+    "status": "passed",
+    "seconds": "0.101"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_keepdim_width8]",
+    "status": "passed",
+    "seconds": "0.228"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum_scalar_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_clamp]",
+    "status": "passed",
+    "seconds": "0.256"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.257"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_neg]",
+    "status": "passed",
+    "seconds": "0.254"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_silu]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[multi_margin_loss]",
+    "status": "passed",
+    "seconds": "0.609"
+  },
+  {
+    "name": "test_operator_matches_pytorch[nan_to_num_out]",
+    "status": "passed",
+    "seconds": "0.056"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne_scalar_left]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[neg_out]",
+    "status": "passed",
+    "seconds": "0.057"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize]",
+    "status": "passed",
+    "seconds": "0.321"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_rms_width16]",
+    "status": "passed",
+    "seconds": "0.326"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal_out]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[one_hot]",
+    "status": "passed",
+    "seconds": "0.183"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad1d_left]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad3d_last]",
+    "status": "passed",
+    "seconds": "0.217"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_3d_021]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_0231]",
+    "status": "passed",
+    "seconds": "0.111"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_2301]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[poisson_nll_loss]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow_scalar]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rad2deg]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[range_width8]",
+    "status": "passed",
+    "seconds": "0.246"
+  },
+  {
+    "name": "test_operator_matches_pytorch[relu]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[remainder]",
+    "status": "passed",
+    "seconds": "0.114"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_abs]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_gelu]",
+    "status": "passed",
+    "seconds": "1.144"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.137"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_relu6]",
+    "status": "passed",
+    "seconds": "0.104"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_softsign]",
+    "status": "passed",
+    "seconds": "0.155"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_cube]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_hardswish]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_neg]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_softplus]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_clamp]",
+    "status": "passed",
+    "seconds": "0.490"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.468"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_neg]",
+    "status": "passed",
+    "seconds": "0.453"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_softplus]",
+    "status": "passed",
+    "seconds": "0.453"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.470"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rotary_embedding]",
+    "status": "passed",
+    "seconds": "0.145"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rsqrt]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[scaled_dot_product_attention_causal]",
+    "status": "passed",
+    "seconds": "0.009"
+  },
+  {
+    "name": "test_operator_matches_pytorch[selu_]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sigmoid]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[signbit]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[silu_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sinh_]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_depth_inner_3d]",
+    "status": "passed",
+    "seconds": "0.237"
+  },
+  {
+    "name": "test_operator_matches_pytorch[soft_margin_loss]",
+    "status": "passed",
+    "seconds": "0.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_entropy_width8]",
+    "status": "passed",
+    "seconds": "0.385"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmin]",
+    "status": "passed",
+    "seconds": "0.287"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softsign]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_erf_out]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_ndtr]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_xlog1py_out]",
+    "status": "passed",
+    "seconds": "0.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sqrt_out]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[squeeze_dim1_2d]",
+    "status": "passed",
+    "seconds": "0.053"
+  },
+  {
+    "name": "test_operator_matches_pytorch[std_width32]",
+    "status": "passed",
+    "seconds": "0.318"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum]",
+    "status": "passed",
+    "seconds": "0.104"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_exp_width16]",
+    "status": "passed",
+    "seconds": "0.196"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_keepdim_width32]",
+    "status": "passed",
+    "seconds": "0.230"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_sigmoid_width64]",
+    "status": "passed",
+    "seconds": "0.200"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_square_width8]",
+    "status": "passed",
+    "seconds": "0.219"
+  },
+  {
+    "name": "test_operator_matches_pytorch[swiglu]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tanh_]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[threshold]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[triplet_margin_loss]",
+    "status": "passed",
+    "seconds": "0.512"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_divide]",
+    "status": "passed",
+    "seconds": "0.100"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[unsqueeze_dim2_2d]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_nearest1d]",
+    "status": "passed",
+    "seconds": "0.240"
+  },
+  {
+    "name": "test_operator_matches_pytorch[variance_width16]",
+    "status": "passed",
+    "seconds": "0.347"
+  },
+  {
+    "name": "test_operator_matches_pytorch[vector_norm]",
+    "status": "passed",
+    "seconds": "0.124"
+  },
+  {
+    "name": "test_operator_matches_pytorch[zero]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[_upsample_nearest_exact1d]",
+    "status": "passed",
+    "seconds": "8.817"
+  },
+  {
+    "name": "test_operator_matches_pytorch[absolute_out]",
+    "status": "passed",
+    "seconds": "0.110"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_avg_pool3d]",
+    "status": "passed",
+    "seconds": "0.965"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_]",
+    "status": "passed",
+    "seconds": "0.279"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_gelu]",
+    "status": "passed",
+    "seconds": "0.934"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.880"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.656"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_square]",
+    "status": "passed",
+    "seconds": "0.652"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_abs]",
+    "status": "passed",
+    "seconds": "0.511"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.761"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.494"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_silu]",
+    "status": "passed",
+    "seconds": "0.497"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_tanh]",
+    "status": "passed",
+    "seconds": "0.502"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_scalar_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addcmul_out]",
+    "status": "passed",
+    "seconds": "0.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_gelu]",
+    "status": "passed",
+    "seconds": "0.359"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.650"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_silu]",
+    "status": "passed",
+    "seconds": "0.304"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmv]",
+    "status": "passed",
+    "seconds": "0.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[all_dims]",
+    "status": "passed",
+    "seconds": "0.198"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amax_width64]",
+    "status": "passed",
+    "seconds": "0.192"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amin_width8]",
+    "status": "passed",
+    "seconds": "0.209"
+  },
+  {
+    "name": "test_operator_matches_pytorch[any_dim]",
+    "status": "passed",
+    "seconds": "0.205"
+  },
+  {
+    "name": "test_operator_matches_pytorch[arctanh_]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2]",
+    "status": "passed",
+    "seconds": "0.129"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2_scalar_out]",
+    "status": "passed",
+    "seconds": "0.128"
+  },
+  {
+    "name": "test_operator_matches_pytorch[baddbmm]",
+    "status": "passed",
+    "seconds": "0.309"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and_tensor_]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_not]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or_scalar]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_right_shift_out]",
+    "status": "passed",
+    "seconds": "0.091"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_xor_scalar]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_elu]",
+    "status": "passed",
+    "seconds": "0.283"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.614"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_relu6]",
+    "status": "passed",
+    "seconds": "0.269"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_tanh]",
+    "status": "passed",
+    "seconds": "0.267"
+  },
+  {
+    "name": "test_operator_matches_pytorch[celu]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[center_width8]",
+    "status": "passed",
+    "seconds": "0.283"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp_max]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clip_]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv_depthwise2d]",
+    "status": "passed",
+    "seconds": "1.284"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copy]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cosh]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cross_entropy]",
+    "status": "passed",
+    "seconds": "1.213"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_scalar_left]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[dropout1d]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[embedding]",
+    "status": "passed",
+    "seconds": "0.037"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq_scalar_left]",
+    "status": "passed",
+    "seconds": "3.013"
+  },
+  {
+    "name": "test_operator_matches_pytorch[erf_out]",
+    "status": "passed",
+    "seconds": "3.264"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp_]",
+    "status": "passed",
+    "seconds": "2.975"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eye]",
+    "status": "passed",
+    "seconds": "5.490"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fix_out]",
+    "status": "passed",
+    "seconds": "3.186"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_qkvpacked]",
+    "status": "passed",
+    "seconds": "11.992"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_3d]",
+    "status": "passed",
+    "seconds": "3.228"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_dim2_3d]",
+    "status": "passed",
+    "seconds": "3.388"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_divide_]",
+    "status": "passed",
+    "seconds": "4.396"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmin]",
+    "status": "passed",
+    "seconds": "3.214"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmod_out]",
+    "status": "passed",
+    "seconds": "3.865"
+  },
+  {
+    "name": "test_operator_matches_pytorch[frac_out]",
+    "status": "passed",
+    "seconds": "3.115"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_celu_out]",
+    "status": "passed",
+    "seconds": "3.501"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardshrink]",
+    "status": "passed",
+    "seconds": "3.223"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardswish_out]",
+    "status": "passed",
+    "seconds": "3.413"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_logsigmoid]",
+    "status": "passed",
+    "seconds": "3.859"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_relu6]",
+    "status": "passed",
+    "seconds": "3.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_silu]",
+    "status": "passed",
+    "seconds": "3.255"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softshrink_out]",
+    "status": "passed",
+    "seconds": "3.249"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_threshold]",
+    "status": "passed",
+    "seconds": "3.374"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_cube]",
+    "status": "passed",
+    "seconds": "0.932"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_hardswish]",
+    "status": "passed",
+    "seconds": "0.393"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_relu]",
+    "status": "passed",
+    "seconds": "0.387"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_softshrink]",
+    "status": "passed",
+    "seconds": "0.384"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_abs]",
+    "status": "passed",
+    "seconds": "0.335"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_hardshrink]",
+    "status": "passed",
+    "seconds": "0.339"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.335"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_silu]",
+    "status": "passed",
+    "seconds": "0.329"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_tanh]",
+    "status": "passed",
+    "seconds": "0.333"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_clamp_add_mul]",
+    "status": "passed",
+    "seconds": "3.358"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_cube_mul_add]",
+    "status": "passed",
+    "seconds": "3.288"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_gelu_mul]",
+    "status": "passed",
+    "seconds": "3.803"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardsigmoid_add_mul]",
+    "status": "passed",
+    "seconds": "3.375"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardswish_mul_add]",
+    "status": "passed",
+    "seconds": "3.434"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_leaky_relu_mul]",
+    "status": "passed",
+    "seconds": "3.265"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_mish_add_mul]",
+    "status": "passed",
+    "seconds": "3.547"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_neg_mul_add]",
+    "status": "passed",
+    "seconds": "3.871"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu_mul]",
+    "status": "passed",
+    "seconds": "3.218"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_silu_add_mul]",
+    "status": "passed",
+    "seconds": "3.505"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softplus_mul_add]",
+    "status": "passed",
+    "seconds": "3.430"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softsign_mul]",
+    "status": "passed",
+    "seconds": "3.323"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanh_add_mul]",
+    "status": "passed",
+    "seconds": "3.412"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanhshrink_mul_add]",
+    "status": "passed",
+    "seconds": "3.389"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge_scalar_left]",
+    "status": "passed",
+    "seconds": "3.102"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gelu_]",
+    "status": "passed",
+    "seconds": "3.466"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_clamp]",
+    "status": "passed",
+    "seconds": "0.331"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.331"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_neg]",
+    "status": "passed",
+    "seconds": "0.322"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_softplus]",
+    "status": "passed",
+    "seconds": "0.326"
+  },
+  {
+    "name": "test_operator_matches_pytorch[glu]",
+    "status": "passed",
+    "seconds": "3.546"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal_scalar_left]",
+    "status": "passed",
+    "seconds": "3.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_scalar_left]",
+    "status": "passed",
+    "seconds": "3.238"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt]",
+    "status": "passed",
+    "seconds": "3.162"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt_scalar_out]",
+    "status": "passed",
+    "seconds": "3.011"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardsigmoid_out]",
+    "status": "passed",
+    "seconds": "3.102"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardtanh_]",
+    "status": "passed",
+    "seconds": "3.134"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot_out]",
+    "status": "passed",
+    "seconds": "3.304"
+  },
+  {
+    "name": "test_operator_matches_pytorch[inner]",
+    "status": "passed",
+    "seconds": "0.283"
+  },
+  {
+    "name": "test_operator_matches_pytorch[isinf]",
+    "status": "passed",
+    "seconds": "3.231"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_l2_ratio_width32]",
+    "status": "passed",
+    "seconds": "8.934"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_norm_width32]",
+    "status": "passed",
+    "seconds": "7.863"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_eps_width64]",
+    "status": "passed",
+    "seconds": "7.934"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_width8]",
+    "status": "passed",
+    "seconds": "7.941"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_elu]",
+    "status": "passed",
+    "seconds": "10.631"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_hardtanh]",
+    "status": "passed",
+    "seconds": "11.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_relu6]",
+    "status": "passed",
+    "seconds": "10.050"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_softsign]",
+    "status": "passed",
+    "seconds": "10.517"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le_out]",
+    "status": "passed",
+    "seconds": "3.258"
+  },
+  {
+    "name": "test_operator_matches_pytorch[leaky_relu]",
+    "status": "passed",
+    "seconds": "3.262"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less]",
+    "status": "passed",
+    "seconds": "3.174"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal_scalar_left_out]",
+    "status": "passed",
+    "seconds": "3.169"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_scalar_left_out]",
+    "status": "passed",
+    "seconds": "2.979"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log10]",
+    "status": "passed",
+    "seconds": "3.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log1p_out]",
+    "status": "passed",
+    "seconds": "3.152"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_mean_exp_width64]",
+    "status": "passed",
+    "seconds": "8.550"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_softmax_width16]",
+    "status": "passed",
+    "seconds": "9.366"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp_out]",
+    "status": "passed",
+    "seconds": "3.347"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_and]",
+    "status": "passed",
+    "seconds": "3.149"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_not]",
+    "status": "passed",
+    "seconds": "3.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_or_scalar]",
+    "status": "passed",
+    "seconds": "3.036"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_xor_scalar_out]",
+    "status": "passed",
+    "seconds": "3.198"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsumexp]",
+    "status": "passed",
+    "seconds": "4.121"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt]",
+    "status": "passed",
+    "seconds": "3.175"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt_scalar_out]",
+    "status": "passed",
+    "seconds": "3.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_abs_width64]",
+    "status": "passed",
+    "seconds": "6.509"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_keepdim_width64]",
+    "status": "passed",
+    "seconds": "6.148"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_unpool2d]",
+    "status": "passed",
+    "seconds": "37.592"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_width8]",
+    "status": "passed",
+    "seconds": "5.860"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum_scalar_left_out]",
+    "status": "passed",
+    "seconds": "3.221"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_abs_width64]",
+    "status": "passed",
+    "seconds": "8.317"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_keepdim_width32]",
+    "status": "passed",
+    "seconds": "8.156"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_relu_width64]",
+    "status": "passed",
+    "seconds": "8.567"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_sigmoid_width8]",
+    "status": "passed",
+    "seconds": "8.204"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_width16]",
+    "status": "passed",
+    "seconds": "7.711"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_dim]",
+    "status": "passed",
+    "seconds": "6.106"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_width16]",
+    "status": "passed",
+    "seconds": "6.044"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum_out]",
+    "status": "passed",
+    "seconds": "3.239"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mish]",
+    "status": "passed",
+    "seconds": "3.341"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_cube]",
+    "status": "passed",
+    "seconds": "0.262"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_hardswish]",
+    "status": "passed",
+    "seconds": "0.258"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_out]",
+    "status": "passed",
+    "seconds": "0.254"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_softplus]",
+    "status": "passed",
+    "seconds": "0.263"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mse_loss]",
+    "status": "passed",
+    "seconds": "3.190"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_scalar_left]",
+    "status": "passed",
+    "seconds": "3.146"
+  },
+  {
+    "name": "test_operator_matches_pytorch[multilabel_margin_loss]",
+    "status": "passed",
+    "seconds": "42.133"
+  },
+  {
+    "name": "test_operator_matches_pytorch[native_channel_shuffle]",
+    "status": "passed",
+    "seconds": "5.976"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne_scalar_left_out]",
+    "status": "passed",
+    "seconds": "3.187"
+  },
+  {
+    "name": "test_operator_matches_pytorch[negative]",
+    "status": "passed",
+    "seconds": "3.087"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_l2_width16]",
+    "status": "passed",
+    "seconds": "8.598"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_rms_width32]",
+    "status": "passed",
+    "seconds": "8.576"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal_scalar]",
+    "status": "passed",
+    "seconds": "3.220"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ones]",
+    "status": "passed",
+    "seconds": "2.268"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad1d_left_right]",
+    "status": "passed",
+    "seconds": "3.193"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad3d_middle]",
+    "status": "passed",
+    "seconds": "3.735"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_3d_102]",
+    "status": "passed",
+    "seconds": "3.433"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_0312]",
+    "status": "passed",
+    "seconds": "3.461"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_3012]",
+    "status": "passed",
+    "seconds": "3.415"
+  },
+  {
+    "name": "test_operator_matches_pytorch[positive]",
+    "status": "passed",
+    "seconds": "3.007"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow_scalar_left]",
+    "status": "passed",
+    "seconds": "3.274"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rad2deg_out]",
+    "status": "passed",
+    "seconds": "3.049"
+  },
+  {
+    "name": "test_operator_matches_pytorch[reciprocal]",
+    "status": "passed",
+    "seconds": "3.029"
+  },
+  {
+    "name": "test_operator_matches_pytorch[relu6]",
+    "status": "passed",
+    "seconds": "3.138"
+  },
+  {
+    "name": "test_operator_matches_pytorch[remainder_]",
+    "status": "passed",
+    "seconds": "4.024"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_abs]",
+    "status": "passed",
+    "seconds": "3.606"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_hardshrink]",
+    "status": "passed",
+    "seconds": "3.478"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_logsigmoid]",
+    "status": "passed",
+    "seconds": "3.557"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_sigmoid]",
+    "status": "passed",
+    "seconds": "3.490"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_square]",
+    "status": "passed",
+    "seconds": "3.226"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_elu]",
+    "status": "passed",
+    "seconds": "3.408"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_hardtanh]",
+    "status": "passed",
+    "seconds": "3.209"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_relu]",
+    "status": "passed",
+    "seconds": "3.200"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_softshrink]",
+    "status": "passed",
+    "seconds": "3.424"
+  },
+  {
+    "name": "test_operator_matches_pytorch[resolve_conj]",
+    "status": "passed",
+    "seconds": "3.033"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_cube]",
+    "status": "passed",
+    "seconds": "9.216"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_hardswish]",
+    "status": "passed",
+    "seconds": "9.703"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_relu]",
+    "status": "passed",
+    "seconds": "9.426"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_softshrink]",
+    "status": "passed",
+    "seconds": "9.604"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_width16]",
+    "status": "passed",
+    "seconds": "8.010"
+  },
+  {
+    "name": "test_operator_matches_pytorch[round]",
+    "status": "passed",
+    "seconds": "3.479"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rsqrt_]",
+    "status": "passed",
+    "seconds": "3.284"
+  },
+  {
+    "name": "test_operator_matches_pytorch[scaled_dot_product_attention_default_scale]",
+    "status": "passed",
+    "seconds": "7.745"
+  },
+  {
+    "name": "test_operator_matches_pytorch[selu_out]",
+    "status": "passed",
+    "seconds": "3.283"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sigmoid_]",
+    "status": "passed",
+    "seconds": "3.138"
+  },
+  {
+    "name": "test_operator_matches_pytorch[signbit_out]",
+    "status": "passed",
+    "seconds": "3.187"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sin]",
+    "status": "passed",
+    "seconds": "3.523"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sinh_out]",
+    "status": "passed",
+    "seconds": "3.346"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_last_even_3d]",
+    "status": "passed",
+    "seconds": "3.505"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax]",
+    "status": "passed",
+    "seconds": "4.413"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_width16]",
+    "status": "passed",
+    "seconds": "9.972"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softplus]",
+    "status": "passed",
+    "seconds": "3.246"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softsign_out]",
+    "status": "passed",
+    "seconds": "3.193"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_expit]",
+    "status": "passed",
+    "seconds": "3.367"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_ndtr_out]",
+    "status": "passed",
+    "seconds": "3.488"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_xlogy]",
+    "status": "passed",
+    "seconds": "3.342"
+  },
+  {
+    "name": "test_operator_matches_pytorch[square]",
+    "status": "passed",
+    "seconds": "3.037"
+  },
+  {
+    "name": "test_operator_matches_pytorch[squeeze_dim1_3d]",
+    "status": "passed",
+    "seconds": "3.299"
+  },
+  {
+    "name": "test_operator_matches_pytorch[std_width64]",
+    "status": "passed",
+    "seconds": "8.240"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_scalar]",
+    "status": "passed",
+    "seconds": "3.037"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_abs_width16]",
+    "status": "passed",
+    "seconds": "8.185"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_exp_width32]",
+    "status": "passed",
+    "seconds": "7.972"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_keepdim_width64]",
+    "status": "passed",
+    "seconds": "7.578"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_sigmoid_width8]",
+    "status": "passed",
+    "seconds": "8.168"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_width16]",
+    "status": "passed",
+    "seconds": "7.514"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tan]",
+    "status": "passed",
+    "seconds": "3.998"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tanh_out]",
+    "status": "passed",
+    "seconds": "3.164"
+  },
+  {
+    "name": "test_operator_matches_pytorch[threshold_]",
+    "status": "passed",
+    "seconds": "3.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[triplet_margin_with_distance_loss]",
+    "status": "passed",
+    "seconds": "9.556"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_scalar_left]",
+    "status": "passed",
+    "seconds": "3.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_divide_]",
+    "status": "passed",
+    "seconds": "3.309"
+  },
+  {
+    "name": "test_operator_matches_pytorch[unfold]",
+    "status": "passed",
+    "seconds": "5.694"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample]",
+    "status": "passed",
+    "seconds": "4.416"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_nearest2d]",
+    "status": "passed",
+    "seconds": "8.612"
+  },
+  {
+    "name": "test_operator_matches_pytorch[variance_width32]",
+    "status": "passed",
+    "seconds": "8.297"
+  },
+  {
+    "name": "test_operator_matches_pytorch[where_scalar_other]",
+    "status": "passed",
+    "seconds": "3.256"
+  },
+  {
+    "name": "test_operator_matches_pytorch[zero_]",
+    "status": "passed",
+    "seconds": "2.920"
+  },
+  {
+    "name": "test_operator_matches_pytorch[abs]",
+    "status": "passed",
+    "seconds": "8.437"
+  },
+  {
+    "name": "test_operator_matches_pytorch[acos]",
+    "status": "passed",
+    "seconds": "0.138"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_max_pool1d]",
+    "status": "passed",
+    "seconds": "0.873"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_abs]",
+    "status": "passed",
+    "seconds": "0.870"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.650"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.891"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_silu]",
+    "status": "passed",
+    "seconds": "0.657"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_tanh]",
+    "status": "passed",
+    "seconds": "0.660"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_clamp]",
+    "status": "passed",
+    "seconds": "0.782"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.490"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_neg]",
+    "status": "passed",
+    "seconds": "0.482"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_softplus]",
+    "status": "passed",
+    "seconds": "0.482"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.491"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addbmm]",
+    "status": "passed",
+    "seconds": "0.699"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm]",
+    "status": "passed",
+    "seconds": "0.329"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.312"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_neg]",
+    "status": "passed",
+    "seconds": "0.299"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_softshrink]",
+    "status": "passed",
+    "seconds": "0.302"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addr]",
+    "status": "passed",
+    "seconds": "0.009"
+  },
+  {
+    "name": "test_operator_matches_pytorch[alpha_dropout]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amax_width8]",
+    "status": "passed",
+    "seconds": "0.190"
+  },
+  {
+    "name": "test_operator_matches_pytorch[aminmax]",
+    "status": "passed",
+    "seconds": "0.194"
+  },
+  {
+    "name": "test_operator_matches_pytorch[any_dims]",
+    "status": "passed",
+    "seconds": "0.210"
+  },
+  {
+    "name": "test_operator_matches_pytorch[asinh]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2_out]",
+    "status": "passed",
+    "seconds": "0.130"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan_out]",
+    "status": "passed",
+    "seconds": "0.110"
+  },
+  {
+    "name": "test_operator_matches_pytorch[batch_norm]",
+    "status": "passed",
+    "seconds": "0.175"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_left_shift]",
+    "status": "passed",
+    "seconds": "0.110"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_not_]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or_scalar_out]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_right_shift_scalar]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_xor_scalar_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_gelu]",
+    "status": "passed",
+    "seconds": "0.631"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.264"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.260"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.260"
+  },
+  {
+    "name": "test_operator_matches_pytorch[celu_]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[chain_matmul]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp_max_]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[contiguous]",
+    "status": "passed",
+    "seconds": "0.056"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv_tbc]",
+    "status": "passed",
+    "seconds": "1.264"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign]",
+    "status": "passed",
+    "seconds": "0.112"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign_scalar_out]",
+    "status": "passed",
+    "seconds": "0.503"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cosh_]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cudnn_convolution]",
+    "status": "passed",
+    "seconds": "1.211"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_mode]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[dropout2d]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[embedding_bag]",
+    "status": "passed",
+    "seconds": "2.038"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp_out]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eye_m]",
+    "status": "passed",
+    "seconds": "0.124"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention]",
+    "status": "passed",
+    "seconds": "3.692"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_qkvpacked_causal]",
+    "status": "passed",
+    "seconds": "0.109"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_4d]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_dim2_4d]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_divide_out]",
+    "status": "passed",
+    "seconds": "0.141"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmin_out]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmod_scalar]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fractional_max_pool2d]",
+    "status": "passed",
+    "seconds": "0.896"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_elu]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardshrink_out]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardtanh]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_logsigmoid_out]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_relu6_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_silu_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softsign]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_threshold_out]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_elu]",
+    "status": "passed",
+    "seconds": "0.373"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_hardtanh]",
+    "status": "passed",
+    "seconds": "0.855"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_relu6]",
+    "status": "passed",
+    "seconds": "0.363"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_softsign]",
+    "status": "passed",
+    "seconds": "0.391"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_clamp]",
+    "status": "passed",
+    "seconds": "0.331"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.334"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_neg]",
+    "status": "passed",
+    "seconds": "0.332"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_softplus]",
+    "status": "passed",
+    "seconds": "0.325"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.330"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_clamp_mul]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_elu_add_mul]",
+    "status": "passed",
+    "seconds": "0.104"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_gelu_mul_add]",
+    "status": "passed",
+    "seconds": "0.203"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardsigmoid_mul]",
+    "status": "passed",
+    "seconds": "0.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardtanh_add_mul]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_leaky_relu_mul_add]",
+    "status": "passed",
+    "seconds": "0.105"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_mish_mul]",
+    "status": "passed",
+    "seconds": "0.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu6_add_mul]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu_mul_add]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_silu_mul]",
+    "status": "passed",
+    "seconds": "0.084"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softshrink_add_mul]",
+    "status": "passed",
+    "seconds": "0.111"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softsign_mul_add]",
+    "status": "passed",
+    "seconds": "0.111"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanh_mul]",
+    "status": "passed",
+    "seconds": "0.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gaussian_nll_loss]",
+    "status": "passed",
+    "seconds": "0.102"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gelu_and_mul]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_cube]",
+    "status": "passed",
+    "seconds": "0.330"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_hardswish]",
+    "status": "passed",
+    "seconds": "0.949"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_relu]",
+    "status": "passed",
+    "seconds": "0.327"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_softshrink]",
+    "status": "passed",
+    "seconds": "0.332"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gumbel_softmax]",
+    "status": "passed",
+    "seconds": "0.323"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardswish]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardtanh_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot_scalar]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[instance_norm]",
+    "status": "passed",
+    "seconds": "0.781"
+  },
+  {
+    "name": "test_operator_matches_pytorch[isnan]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_l2_ratio_width64]",
+    "status": "passed",
+    "seconds": "0.387"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_norm_width64]",
+    "status": "passed",
+    "seconds": "0.285"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_eps_width8]",
+    "status": "passed",
+    "seconds": "0.227"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm]",
+    "status": "passed",
+    "seconds": "0.379"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_gelu]",
+    "status": "passed",
+    "seconds": "0.826"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_leaky_relu]",
+    "status": "passed",
+    "seconds": "1.325"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.586"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_square]",
+    "status": "passed",
+    "seconds": "0.562"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[leaky_relu_]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal_scalar_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_scalar_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log10_]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log2]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_mean_exp_width8]",
+    "status": "passed",
+    "seconds": "0.297"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_softmax_width32]",
+    "status": "passed",
+    "seconds": "0.349"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp_scalar]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_and_]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_not_out]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_or_scalar_out]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logit]",
+    "status": "passed",
+    "seconds": "0.500"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsumexp_width16]",
+    "status": "passed",
+    "seconds": "0.264"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[margin_ranking_loss]",
+    "status": "passed",
+    "seconds": "0.105"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_abs_width8]",
+    "status": "passed",
+    "seconds": "0.273"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_keepdim_width8]",
+    "status": "passed",
+    "seconds": "0.241"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_unpool3d]",
+    "status": "passed",
+    "seconds": "37.052"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum_scalar_out]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_abs_width8]",
+    "status": "passed",
+    "seconds": "0.274"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_keepdim_width64]",
+    "status": "passed",
+    "seconds": "0.234"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_relu_width8]",
+    "status": "passed",
+    "seconds": "0.194"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_square_width16]",
+    "status": "passed",
+    "seconds": "0.229"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_width32]",
+    "status": "passed",
+    "seconds": "0.191"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_keepdim_width16]",
+    "status": "passed",
+    "seconds": "0.230"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_width32]",
+    "status": "passed",
+    "seconds": "0.188"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum_scalar]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mish_out]",
+    "status": "passed",
+    "seconds": "0.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_elu]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.257"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_relu]",
+    "status": "passed",
+    "seconds": "0.251"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_softshrink]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[multilabel_soft_margin_loss]",
+    "status": "passed",
+    "seconds": "0.497"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne_scalar_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[negative_out]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_l2_width32]",
+    "status": "passed",
+    "seconds": "0.319"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_rms_width64]",
+    "status": "passed",
+    "seconds": "0.319"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal_scalar_left]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ones_like]",
+    "status": "passed",
+    "seconds": "0.044"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad2d_border]",
+    "status": "passed",
+    "seconds": "0.112"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad3d_outer]",
+    "status": "passed",
+    "seconds": "0.195"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_3d_120]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_1032]",
+    "status": "passed",
+    "seconds": "0.112"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_3210]",
+    "status": "passed",
+    "seconds": "0.108"
+  },
+  {
+    "name": "test_operator_matches_pytorch[positive_out]",
+    "status": "passed",
+    "seconds": "0.056"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[range_width16]",
+    "status": "passed",
+    "seconds": "0.243"
+  },
+  {
+    "name": "test_operator_matches_pytorch[reciprocal_]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[relu6_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[remainder_out]",
+    "status": "passed",
+    "seconds": "0.111"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_clamp]",
+    "status": "passed",
+    "seconds": "0.096"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.101"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_mish]",
+    "status": "passed",
+    "seconds": "0.142"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_silu]",
+    "status": "passed",
+    "seconds": "0.110"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_tanh]",
+    "status": "passed",
+    "seconds": "0.115"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_gelu]",
+    "status": "passed",
+    "seconds": "0.200"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_relu6]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_softsign]",
+    "status": "passed",
+    "seconds": "0.111"
+  },
+  {
+    "name": "test_operator_matches_pytorch[resolve_neg]",
+    "status": "passed",
+    "seconds": "0.057"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_elu]",
+    "status": "passed",
+    "seconds": "0.446"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.439"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_relu6]",
+    "status": "passed",
+    "seconds": "0.440"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_softsign]",
+    "status": "passed",
+    "seconds": "0.446"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_width32]",
+    "status": "passed",
+    "seconds": "0.223"
+  },
+  {
+    "name": "test_operator_matches_pytorch[round_out]",
+    "status": "passed",
+    "seconds": "0.080"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rsqrt_out]",
+    "status": "passed",
+    "seconds": "0.057"
+  },
+  {
+    "name": "test_operator_matches_pytorch[scaled_dot_product_attention_default_scale_causal]",
+    "status": "passed",
+    "seconds": "0.011"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sgn]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sigmoid_out]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[silu]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sin_]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[skip_layernorm]",
+    "status": "passed",
+    "seconds": "1.823"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_rows_even_2d]",
+    "status": "passed",
+    "seconds": "0.140"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_entropy_width16]",
+    "status": "passed",
+    "seconds": "0.376"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_width32]",
+    "status": "passed",
+    "seconds": "0.312"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softplus_out]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_entr]",
+    "status": "passed",
+    "seconds": "0.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_expit_out]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_sinc]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_xlogy_out]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[square_]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[squeeze_dim2_3d]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[std_width8]",
+    "status": "passed",
+    "seconds": "0.314"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_scalar_left]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_abs_width32]",
+    "status": "passed",
+    "seconds": "0.268"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_exp_width64]",
+    "status": "passed",
+    "seconds": "0.190"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_keepdim_width8]",
+    "status": "passed",
+    "seconds": "0.229"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_square_width16]",
+    "status": "passed",
+    "seconds": "0.220"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_width32]",
+    "status": "passed",
+    "seconds": "0.186"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tan_]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tanhshrink]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[threshold_out]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_divide_out]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[unsqueeze_dim0_1d]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_bilinear]",
+    "status": "passed",
+    "seconds": "0.039"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_nearest3d]",
+    "status": "passed",
+    "seconds": "15.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[variance_width64]",
+    "status": "passed",
+    "seconds": "8.159"
+  },
+  {
+    "name": "test_operator_matches_pytorch[where_scalar_self]",
+    "status": "passed",
+    "seconds": "3.327"
+  },
+  {
+    "name": "test_operator_matches_pytorch[zeros]",
+    "status": "passed",
+    "seconds": "2.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[abs_]",
+    "status": "passed",
+    "seconds": "8.696"
+  },
+  {
+    "name": "test_operator_matches_pytorch[acos_out]",
+    "status": "passed",
+    "seconds": "0.139"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_max_pool2d]",
+    "status": "passed",
+    "seconds": "0.940"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_clamp]",
+    "status": "passed",
+    "seconds": "0.901"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.660"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_neg]",
+    "status": "passed",
+    "seconds": "0.911"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_softplus]",
+    "status": "passed",
+    "seconds": "0.662"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.669"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_cube]",
+    "status": "passed",
+    "seconds": "0.803"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_hardswish]",
+    "status": "passed",
+    "seconds": "0.500"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_relu]",
+    "status": "passed",
+    "seconds": "0.486"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_softshrink]",
+    "status": "passed",
+    "seconds": "0.492"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_scalar]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addcdiv]",
+    "status": "passed",
+    "seconds": "0.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_abs]",
+    "status": "passed",
+    "seconds": "0.375"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.635"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_relu]",
+    "status": "passed",
+    "seconds": "0.297"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_square]",
+    "status": "passed",
+    "seconds": "0.300"
+  },
+  {
+    "name": "test_operator_matches_pytorch[affine_grid]",
+    "status": "passed",
+    "seconds": "2.678"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amax]",
+    "status": "passed",
+    "seconds": "0.104"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amin_width16]",
+    "status": "passed",
+    "seconds": "0.210"
+  },
+  {
+    "name": "test_operator_matches_pytorch[angle]",
+    "status": "passed",
+    "seconds": "0.450"
+  },
+  {
+    "name": "test_operator_matches_pytorch[arcsinh]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[asinh_]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2_scalar]",
+    "status": "passed",
+    "seconds": "0.126"
+  },
+  {
+    "name": "test_operator_matches_pytorch[avg_pool1d]",
+    "status": "passed",
+    "seconds": "1.211"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bilinear]",
+    "status": "passed",
+    "seconds": "1.268"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and_scalar]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_left_shift_out]",
+    "status": "passed",
+    "seconds": "0.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_not_out]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or_tensor]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_right_shift_scalar_out]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm]",
+    "status": "passed",
+    "seconds": "0.285"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.798"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_neg]",
+    "status": "passed",
+    "seconds": "0.261"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_silu]",
+    "status": "passed",
+    "seconds": "0.264"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ceil]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[center_width16]",
+    "status": "passed",
+    "seconds": "0.285"
+  },
+  {
+    "name": "test_operator_matches_pytorch[channel_shuffle]",
+    "status": "passed",
+    "seconds": "0.841"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp_min]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv1d]",
+    "status": "passed",
+    "seconds": "1.821"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv_transpose1d]",
+    "status": "passed",
+    "seconds": "1.330"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign_out]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cos]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cosh_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cumsum]",
+    "status": "passed",
+    "seconds": "0.390"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_mode_]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_scalar_out]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[dropout3d]",
+    "status": "passed",
+    "seconds": "0.131"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq_scalar_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp2]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[expm1]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[feature_alpha_dropout]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_causal]",
+    "status": "passed",
+    "seconds": "4.026"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_scaled]",
+    "status": "passed",
+    "seconds": "0.011"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_dim1_2d]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_divide_scalar]",
+    "status": "passed",
+    "seconds": "0.129"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmin_scalar]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmod_scalar_out]",
+    "status": "passed",
+    "seconds": "0.086"
+  },
+  {
+    "name": "test_operator_matches_pytorch[full]",
+    "status": "passed",
+    "seconds": "0.044"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_elu_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardtanh_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_mish]",
+    "status": "passed",
+    "seconds": "0.088"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_relu_out]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softplus]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softsign_out]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_add_rms_norm]",
+    "status": "passed",
+    "seconds": "0.479"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_gelu]",
+    "status": "passed",
+    "seconds": "0.387"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.366"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_sigmoid]",
+    "status": "passed",
+    "seconds": "0.371"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_square]",
+    "status": "passed",
+    "seconds": "0.376"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_cube]",
+    "status": "passed",
+    "seconds": "0.326"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_hardswish]",
+    "status": "passed",
+    "seconds": "0.324"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_relu]",
+    "status": "passed",
+    "seconds": "0.335"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_softshrink]",
+    "status": "passed",
+    "seconds": "0.855"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_abs_add_mul]",
+    "status": "passed",
+    "seconds": "0.108"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_clamp_mul_add]",
+    "status": "passed",
+    "seconds": "0.104"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_elu_mul]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardshrink_add_mul]",
+    "status": "passed",
+    "seconds": "0.128"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardsigmoid_mul_add]",
+    "status": "passed",
+    "seconds": "0.101"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardtanh_mul]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_logsigmoid_add_mul]",
+    "status": "passed",
+    "seconds": "0.096"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_mish_mul_add]",
+    "status": "passed",
+    "seconds": "0.117"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu6_mul]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_sigmoid_add_mul]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_silu_mul_add]",
+    "status": "passed",
+    "seconds": "0.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softshrink_mul]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_square_add_mul]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanh_mul_add]",
+    "status": "passed",
+    "seconds": "0.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge_scalar_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gelu_out]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_elu]",
+    "status": "passed",
+    "seconds": "0.343"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_hardtanh]",
+    "status": "passed",
+    "seconds": "0.345"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_relu6]",
+    "status": "passed",
+    "seconds": "0.349"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_square]",
+    "status": "passed",
+    "seconds": "0.343"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal_scalar_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_scalar_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt_scalar]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardshrink]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardswish_]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hinge_embedding_loss]",
+    "status": "passed",
+    "seconds": "0.094"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot_scalar_left]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[interpolate]",
+    "status": "passed",
+    "seconds": "0.397"
+  },
+  {
+    "name": "test_operator_matches_pytorch[isneginf]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_l2_ratio_width8]",
+    "status": "passed",
+    "seconds": "0.402"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_norm_width8]",
+    "status": "passed",
+    "seconds": "0.290"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_width16]",
+    "status": "passed",
+    "seconds": "0.241"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_abs]",
+    "status": "passed",
+    "seconds": "0.568"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_hardshrink]",
+    "status": "passed",
+    "seconds": "1.322"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.594"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_silu]",
+    "status": "passed",
+    "seconds": "0.576"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_tanh]",
+    "status": "passed",
+    "seconds": "0.585"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le_scalar_left]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[leaky_relu_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[linear]",
+    "status": "passed",
+    "seconds": "0.355"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log10_out]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log2_out]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_out]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_softmax_width64]",
+    "status": "passed",
+    "seconds": "0.350"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp_scalar_left]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_and_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_or]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_xor]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logit_]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsumexp_width32]",
+    "status": "passed",
+    "seconds": "0.292"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt_scalar]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max]",
+    "status": "passed",
+    "seconds": "0.101"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_dim]",
+    "status": "passed",
+    "seconds": "0.192"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_pool1d]",
+    "status": "passed",
+    "seconds": "0.830"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_width16]",
+    "status": "passed",
+    "seconds": "0.191"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum_out]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean]",
+    "status": "passed",
+    "seconds": "0.192"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_dim]",
+    "status": "passed",
+    "seconds": "0.195"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_keepdim_width8]",
+    "status": "passed",
+    "seconds": "0.236"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_sigmoid_width16]",
+    "status": "passed",
+    "seconds": "0.203"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_square_width32]",
+    "status": "passed",
+    "seconds": "0.226"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_width64]",
+    "status": "passed",
+    "seconds": "1.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_keepdim_width32]",
+    "status": "passed",
+    "seconds": "0.243"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_width64]",
+    "status": "passed",
+    "seconds": "0.193"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum_scalar_left]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm]",
+    "status": "passed",
+    "seconds": "0.255"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_gelu]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.259"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_relu6]",
+    "status": "passed",
+    "seconds": "0.260"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_square]",
+    "status": "passed",
+    "seconds": "0.263"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_scalar_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mv]",
+    "status": "passed",
+    "seconds": "0.157"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[neg]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[new_full]",
+    "status": "passed",
+    "seconds": "0.043"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_l2_width64]",
+    "status": "passed",
+    "seconds": "0.347"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_rms_width8]",
+    "status": "passed",
+    "seconds": "0.323"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[outer]",
+    "status": "passed",
+    "seconds": "0.009"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad2d_cols]",
+    "status": "passed",
+    "seconds": "0.108"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pairwise_distance]",
+    "status": "passed",
+    "seconds": "0.384"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_3d_201]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_1302]",
+    "status": "passed",
+    "seconds": "0.112"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pixel_shuffle]",
+    "status": "passed",
+    "seconds": "2.966"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow]",
+    "status": "passed",
+    "seconds": "0.080"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow_scalar_out]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[range_width32]",
+    "status": "passed",
+    "seconds": "1.245"
+  },
+  {
+    "name": "test_operator_matches_pytorch[reciprocal_out]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[relu_]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[remainder_scalar]",
+    "status": "passed",
+    "seconds": "0.100"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_cube]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_hardswish]",
+    "status": "passed",
+    "seconds": "0.122"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_neg]",
+    "status": "passed",
+    "seconds": "0.091"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_softplus]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.099"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_hardshrink]",
+    "status": "passed",
+    "seconds": "0.117"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_sigmoid]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_square]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm]",
+    "status": "passed",
+    "seconds": "0.305"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_gelu]",
+    "status": "passed",
+    "seconds": "0.690"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.456"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.456"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_square]",
+    "status": "passed",
+    "seconds": "0.455"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_width64]",
+    "status": "passed",
+    "seconds": "0.234"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rrelu]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rsub]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[scaled_softmax]",
+    "status": "passed",
+    "seconds": "0.212"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sgn_]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sign]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[silu_]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sin_out]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_cols_even_2d]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_rows_inner_2d]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_entropy_width32]",
+    "status": "passed",
+    "seconds": "0.374"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_width64]",
+    "status": "passed",
+    "seconds": "0.320"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softshrink]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_entr_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_logit]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_sinc_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sqrt]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[square_out]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[std]",
+    "status": "passed",
+    "seconds": "0.310"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_abs_width64]",
+    "status": "passed",
+    "seconds": "0.277"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_exp_width8]",
+    "status": "passed",
+    "seconds": "0.201"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_sigmoid_width16]",
+    "status": "passed",
+    "seconds": "0.211"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_square_width32]",
+    "status": "passed",
+    "seconds": "0.232"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_width64]",
+    "status": "passed",
+    "seconds": "0.199"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tan_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tanhshrink_out]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[to]",
+    "status": "passed",
+    "seconds": "0.055"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_scalar_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_divide_scalar]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[unsqueeze_dim0_2d]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_linear1d]",
+    "status": "passed",
+    "seconds": "0.547"
+  },
+  {
+    "name": "test_operator_matches_pytorch[var]",
+    "status": "passed",
+    "seconds": "0.307"
+  },
+  {
+    "name": "test_operator_matches_pytorch[variance_width8]",
+    "status": "passed",
+    "seconds": "1.843"
+  },
+  {
+    "name": "test_operator_matches_pytorch[where_self]",
+    "status": "passed",
+    "seconds": "0.094"
+  },
+  {
+    "name": "test_operator_matches_pytorch[zeros_like]",
+    "status": "passed",
+    "seconds": "0.043"
+  },
+  {
+    "name": "test_operator_matches_pytorch[abs_out]",
+    "status": "passed",
+    "seconds": "8.645"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_avg_pool1d]",
+    "status": "passed",
+    "seconds": "0.872"
+  },
+  {
+    "name": "test_operator_matches_pytorch[adaptive_max_pool3d]",
+    "status": "passed",
+    "seconds": "1.886"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_cube]",
+    "status": "passed",
+    "seconds": "0.669"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_hardswish]",
+    "status": "passed",
+    "seconds": "0.670"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_relu]",
+    "status": "passed",
+    "seconds": "0.868"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_layer_norm_softshrink]",
+    "status": "passed",
+    "seconds": "0.678"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_elu]",
+    "status": "passed",
+    "seconds": "0.517"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.743"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_relu6]",
+    "status": "passed",
+    "seconds": "0.489"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_rms_norm_softsign]",
+    "status": "passed",
+    "seconds": "0.495"
+  },
+  {
+    "name": "test_operator_matches_pytorch[add_scalar_left]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addcdiv_out]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_cube]",
+    "status": "passed",
+    "seconds": "0.376"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_hardtanh]",
+    "status": "passed",
+    "seconds": "0.302"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_relu6]",
+    "status": "passed",
+    "seconds": "0.302"
+  },
+  {
+    "name": "test_operator_matches_pytorch[addmm_tanh]",
+    "status": "passed",
+    "seconds": "0.311"
+  },
+  {
+    "name": "test_operator_matches_pytorch[alias_copy]",
+    "status": "passed",
+    "seconds": "0.056"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amax_width16]",
+    "status": "passed",
+    "seconds": "0.513"
+  },
+  {
+    "name": "test_operator_matches_pytorch[amin_width32]",
+    "status": "passed",
+    "seconds": "0.215"
+  },
+  {
+    "name": "test_operator_matches_pytorch[angle_out]",
+    "status": "passed",
+    "seconds": "0.431"
+  },
+  {
+    "name": "test_operator_matches_pytorch[arcsinh_]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[asinh_out]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[atan2_scalar_left]",
+    "status": "passed",
+    "seconds": "0.128"
+  },
+  {
+    "name": "test_operator_matches_pytorch[avg_pool2d]",
+    "status": "passed",
+    "seconds": "0.927"
+  },
+  {
+    "name": "test_operator_matches_pytorch[binary_cross_entropy]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_and_scalar_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_left_shift_scalar]",
+    "status": "passed",
+    "seconds": "0.121"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_or_tensor_]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bitwise_xor]",
+    "status": "passed",
+    "seconds": "0.086"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_abs]",
+    "status": "passed",
+    "seconds": "0.274"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.262"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_out]",
+    "status": "passed",
+    "seconds": "0.660"
+  },
+  {
+    "name": "test_operator_matches_pytorch[bmm_softshrink]",
+    "status": "passed",
+    "seconds": "0.266"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ceil_]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[center_width32]",
+    "status": "passed",
+    "seconds": "0.290"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[clamp_min_]",
+    "status": "passed",
+    "seconds": "0.064"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv2d]",
+    "status": "passed",
+    "seconds": "1.284"
+  },
+  {
+    "name": "test_operator_matches_pytorch[conv_transpose2d]",
+    "status": "passed",
+    "seconds": "1.741"
+  },
+  {
+    "name": "test_operator_matches_pytorch[copysign_scalar]",
+    "status": "passed",
+    "seconds": "0.109"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cos_]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[cosine_embedding_loss]",
+    "status": "passed",
+    "seconds": "0.466"
+  },
+  {
+    "name": "test_operator_matches_pytorch[deg2rad]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[div_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[dot]",
+    "status": "passed",
+    "seconds": "0.167"
+  },
+  {
+    "name": "test_operator_matches_pytorch[elu]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[eq_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[erf]",
+    "status": "passed",
+    "seconds": "0.057"
+  },
+  {
+    "name": "test_operator_matches_pytorch[exp2_]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[expm1_]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fill]",
+    "status": "passed",
+    "seconds": "0.045"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_kvpacked]",
+    "status": "passed",
+    "seconds": "3.759"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flash_attention_scaled_causal]",
+    "status": "passed",
+    "seconds": "0.016"
+  },
+  {
+    "name": "test_operator_matches_pytorch[flatten_dim1_3d]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_]",
+    "status": "passed",
+    "seconds": "0.060"
+  },
+  {
+    "name": "test_operator_matches_pytorch[floor_divide_scalar_out]",
+    "status": "passed",
+    "seconds": "0.155"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fmin_scalar_out]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fold]",
+    "status": "passed",
+    "seconds": "15.708"
+  },
+  {
+    "name": "test_operator_matches_pytorch[full_like]",
+    "status": "passed",
+    "seconds": "0.048"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_gelu]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_hardsigmoid_out]",
+    "status": "passed",
+    "seconds": "0.070"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_leaky_relu]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_mish_out]",
+    "status": "passed",
+    "seconds": "0.089"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_sigmoid]",
+    "status": "passed",
+    "seconds": "0.062"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_softplus_out]",
+    "status": "passed",
+    "seconds": "0.061"
+  },
+  {
+    "name": "test_operator_matches_pytorch[functional_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_abs]",
+    "status": "passed",
+    "seconds": "0.952"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_hardshrink]",
+    "status": "passed",
+    "seconds": "0.387"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.390"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_silu]",
+    "status": "passed",
+    "seconds": "0.378"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_addmm_bias_tanh]",
+    "status": "passed",
+    "seconds": "0.378"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_elu]",
+    "status": "passed",
+    "seconds": "0.335"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_hardtanh]",
+    "status": "passed",
+    "seconds": "0.328"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_relu6]",
+    "status": "passed",
+    "seconds": "0.330"
+  },
+  {
+    "name": "test_operator_matches_pytorch[fused_gemm_bias_softsign]",
+    "status": "passed",
+    "seconds": "0.339"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_abs_mul]",
+    "status": "passed",
+    "seconds": "0.087"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_cube_add_mul]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_elu_mul_add]",
+    "status": "passed",
+    "seconds": "0.103"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardshrink_mul]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardswish_add_mul]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_hardtanh_mul_add]",
+    "status": "passed",
+    "seconds": "0.097"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_logsigmoid_mul]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_neg_add_mul]",
+    "status": "passed",
+    "seconds": "0.091"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_relu6_mul_add]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_sigmoid_mul]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softplus_add_mul]",
+    "status": "passed",
+    "seconds": "0.093"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_softshrink_mul_add]",
+    "status": "passed",
+    "seconds": "0.115"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_square_mul]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gate_tanhshrink_add_mul]",
+    "status": "passed",
+    "seconds": "0.107"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ge_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[geglu]",
+    "status": "passed",
+    "seconds": "0.112"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias]",
+    "status": "passed",
+    "seconds": "0.330"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_gelu]",
+    "status": "passed",
+    "seconds": "0.332"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_leaky_relu]",
+    "status": "passed",
+    "seconds": "1.139"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_sigmoid]",
+    "status": "passed",
+    "seconds": "0.333"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gemm_bias_tanh]",
+    "status": "passed",
+    "seconds": "0.338"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_equal_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[greater_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[group_norm]",
+    "status": "passed",
+    "seconds": "0.822"
+  },
+  {
+    "name": "test_operator_matches_pytorch[gt_scalar_left]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardshrink_out]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hardswish_out]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[huber_loss]",
+    "status": "passed",
+    "seconds": "0.101"
+  },
+  {
+    "name": "test_operator_matches_pytorch[hypot_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[isclose]",
+    "status": "passed",
+    "seconds": "0.130"
+  },
+  {
+    "name": "test_operator_matches_pytorch[kl_div]",
+    "status": "passed",
+    "seconds": "0.084"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l1_loss]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_eps_width16]",
+    "status": "passed",
+    "seconds": "0.230"
+  },
+  {
+    "name": "test_operator_matches_pytorch[l2_norm_width32]",
+    "status": "passed",
+    "seconds": "0.245"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_clamp]",
+    "status": "passed",
+    "seconds": "0.571"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.572"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_neg]",
+    "status": "passed",
+    "seconds": "0.560"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_softplus]",
+    "status": "passed",
+    "seconds": "0.570"
+  },
+  {
+    "name": "test_operator_matches_pytorch[layer_norm_tanhshrink]",
+    "status": "passed",
+    "seconds": "0.579"
+  },
+  {
+    "name": "test_operator_matches_pytorch[le_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lerp]",
+    "status": "passed",
+    "seconds": "0.096"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_equal_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[less_scalar]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[local_response_norm]",
+    "status": "passed",
+    "seconds": "1.664"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log1p]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_mean_exp_width16]",
+    "status": "passed",
+    "seconds": "0.295"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_sigmoid_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[log_softmax_width8]",
+    "status": "passed",
+    "seconds": "0.358"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logaddexp_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_and_scalar]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_or_]",
+    "status": "passed",
+    "seconds": "0.077"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logical_xor_out]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logit_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[logsumexp_width64]",
+    "status": "passed",
+    "seconds": "0.260"
+  },
+  {
+    "name": "test_operator_matches_pytorch[lt_scalar_left]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_abs_width16]",
+    "status": "passed",
+    "seconds": "0.279"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_keepdim_width16]",
+    "status": "passed",
+    "seconds": "0.245"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_pool2d]",
+    "status": "passed",
+    "seconds": "0.899"
+  },
+  {
+    "name": "test_operator_matches_pytorch[max_width32]",
+    "status": "passed",
+    "seconds": "0.199"
+  },
+  {
+    "name": "test_operator_matches_pytorch[maximum_scalar]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_abs_width16]",
+    "status": "passed",
+    "seconds": "0.281"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_dim_comm]",
+    "status": "passed",
+    "seconds": "0.195"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_relu_width16]",
+    "status": "passed",
+    "seconds": "0.198"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_sigmoid_width32]",
+    "status": "passed",
+    "seconds": "0.206"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_square_width64]",
+    "status": "passed",
+    "seconds": "0.229"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mean_width8]",
+    "status": "passed",
+    "seconds": "0.197"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_keepdim_width64]",
+    "status": "passed",
+    "seconds": "0.244"
+  },
+  {
+    "name": "test_operator_matches_pytorch[min_width8]",
+    "status": "passed",
+    "seconds": "0.200"
+  },
+  {
+    "name": "test_operator_matches_pytorch[minimum_scalar_left_out]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_abs]",
+    "status": "passed",
+    "seconds": "0.261"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.266"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.266"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_sigmoid]",
+    "status": "passed",
+    "seconds": "0.266"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mm_tanh]",
+    "status": "passed",
+    "seconds": "0.273"
+  },
+  {
+    "name": "test_operator_matches_pytorch[mul_out]",
+    "status": "passed",
+    "seconds": "0.075"
+  },
+  {
+    "name": "test_operator_matches_pytorch[multi_head_attention_forward]",
+    "status": "passed",
+    "seconds": "9.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[nan_to_num]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[ne_scalar]",
+    "status": "passed",
+    "seconds": "0.072"
+  },
+  {
+    "name": "test_operator_matches_pytorch[neg_]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[nll_loss]",
+    "status": "passed",
+    "seconds": "0.446"
+  },
+  {
+    "name": "test_operator_matches_pytorch[normalize_l2_width8]",
+    "status": "passed",
+    "seconds": "0.327"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[not_equal_scalar_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pad2d_rows]",
+    "status": "passed",
+    "seconds": "0.094"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pdist]",
+    "status": "passed",
+    "seconds": "0.252"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_3d_210]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[permute_4d_2013]",
+    "status": "passed",
+    "seconds": "0.113"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pixel_unshuffle]",
+    "status": "passed",
+    "seconds": "0.933"
+  },
+  {
+    "name": "test_operator_matches_pytorch[pow_out]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[prelu]",
+    "status": "passed",
+    "seconds": "0.085"
+  },
+  {
+    "name": "test_operator_matches_pytorch[range_width64]",
+    "status": "passed",
+    "seconds": "0.249"
+  },
+  {
+    "name": "test_operator_matches_pytorch[reglu]",
+    "status": "passed",
+    "seconds": "0.079"
+  },
+  {
+    "name": "test_operator_matches_pytorch[relu_out]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[remainder_scalar_out]",
+    "status": "passed",
+    "seconds": "0.092"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_elu]",
+    "status": "passed",
+    "seconds": "0.095"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_hardtanh]",
+    "status": "passed",
+    "seconds": "0.098"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_relu]",
+    "status": "passed",
+    "seconds": "0.091"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_bias_softshrink]",
+    "status": "passed",
+    "seconds": "0.100"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_clamp]",
+    "status": "passed",
+    "seconds": "0.082"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_hardsigmoid]",
+    "status": "passed",
+    "seconds": "0.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_mish]",
+    "status": "passed",
+    "seconds": "0.117"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_silu]",
+    "status": "passed",
+    "seconds": "0.090"
+  },
+  {
+    "name": "test_operator_matches_pytorch[residual_tanh]",
+    "status": "passed",
+    "seconds": "0.095"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_abs]",
+    "status": "passed",
+    "seconds": "0.457"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_hardshrink]",
+    "status": "passed",
+    "seconds": "0.452"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_logsigmoid]",
+    "status": "passed",
+    "seconds": "0.460"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_silu]",
+    "status": "passed",
+    "seconds": "0.460"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_norm_tanh]",
+    "status": "passed",
+    "seconds": "0.463"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rms_width8]",
+    "status": "passed",
+    "seconds": "0.226"
+  },
+  {
+    "name": "test_operator_matches_pytorch[rrelu_]",
+    "status": "passed",
+    "seconds": "0.071"
+  },
+  {
+    "name": "test_operator_matches_pytorch[scaled_dot_product_attention]",
+    "status": "passed",
+    "seconds": "0.008"
+  },
+  {
+    "name": "test_operator_matches_pytorch[selu]",
+    "status": "passed",
+    "seconds": "0.076"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sgn_out]",
+    "status": "passed",
+    "seconds": "0.069"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sign_out]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[silu_and_mul]",
+    "status": "passed",
+    "seconds": "0.083"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sinh]",
+    "status": "passed",
+    "seconds": "0.068"
+  },
+  {
+    "name": "test_operator_matches_pytorch[slice_cols_inner_2d]",
+    "status": "passed",
+    "seconds": "0.144"
+  },
+  {
+    "name": "test_operator_matches_pytorch[smooth_l1_loss]",
+    "status": "passed",
+    "seconds": "0.086"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_entropy_width64]",
+    "status": "passed",
+    "seconds": "0.372"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softmax_width8]",
+    "status": "passed",
+    "seconds": "0.315"
+  },
+  {
+    "name": "test_operator_matches_pytorch[softshrink_out]",
+    "status": "passed",
+    "seconds": "0.081"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_erf]",
+    "status": "passed",
+    "seconds": "0.058"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_logit_out]",
+    "status": "passed",
+    "seconds": "0.067"
+  },
+  {
+    "name": "test_operator_matches_pytorch[special_xlog1py]",
+    "status": "passed",
+    "seconds": "1.285"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sqrt_]",
+    "status": "passed",
+    "seconds": "0.065"
+  },
+  {
+    "name": "test_operator_matches_pytorch[squeeze_dim0_2d]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[std_width16]",
+    "status": "passed",
+    "seconds": "0.339"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_]",
+    "status": "passed",
+    "seconds": "0.078"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sub_scalar_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_abs_width8]",
+    "status": "passed",
+    "seconds": "0.285"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_keepdim_width16]",
+    "status": "passed",
+    "seconds": "0.237"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_sigmoid_width32]",
+    "status": "passed",
+    "seconds": "0.206"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_square_width64]",
+    "status": "passed",
+    "seconds": "0.225"
+  },
+  {
+    "name": "test_operator_matches_pytorch[sum_width8]",
+    "status": "passed",
+    "seconds": "0.191"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tanh]",
+    "status": "passed",
+    "seconds": "0.066"
+  },
+  {
+    "name": "test_operator_matches_pytorch[tensordot]",
+    "status": "passed",
+    "seconds": "0.263"
+  },
+  {
+    "name": "test_operator_matches_pytorch[transpose_2d]",
+    "status": "passed",
+    "seconds": "0.063"
+  },
+  {
+    "name": "test_operator_matches_pytorch[true_divide_out]",
+    "status": "passed",
+    "seconds": "0.073"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc]",
+    "status": "passed",
+    "seconds": "0.074"
+  },
+  {
+    "name": "test_operator_matches_pytorch[trunc_divide_scalar_out]",
+    "status": "passed",
+    "seconds": "0.087"
+  },
+  {
+    "name": "test_operator_matches_pytorch[unsqueeze_dim1_1d]",
+    "status": "passed",
+    "seconds": "0.059"
+  },
+  {
+    "name": "test_operator_matches_pytorch[upsample_nearest]",
+    "status": "passed",
+    "seconds": "0.402"
+  },
+  {
+    "name": "test_operator_matches_pytorch[var_mean]",
+    "status": "passed",
+    "seconds": "0.499"
+  },
+  {
+    "name": "test_operator_matches_pytorch[vdot]",
+    "status": "passed",
+    "seconds": "0.160"
+  },
+  {
+    "name": "test_operator_matches_pytorch[where_self_out]",
+    "status": "passed",
+    "seconds": "0.092"
+  }
+]

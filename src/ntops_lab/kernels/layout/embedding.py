@@ -36,6 +36,10 @@ def run(*inputs, padding_idx=None, max_norm=None, norm_type=2.0, scale_grad_by_f
     if padding_idx is not None or max_norm is not None or scale_grad_by_freq or sparse:
         raise ValueError("embedding currently supports the basic lookup path only")
     vocab, dim = weight.shape
+    if weight.device.type == "npu":
+        from ._ascend_lookup import embedding
+
+        return embedding(index, weight)
     out = torch.empty((*index.shape, dim), device=weight.device, dtype=weight.dtype)
     _kernel(vocab, dim)(index, weight, out, vocab, dim)
     return out

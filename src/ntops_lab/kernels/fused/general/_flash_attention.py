@@ -55,7 +55,7 @@ def application(q, k, v, is_causal, softmax_scale, out):
 
 
 @functools.cache
-def kernel():
+def kernel(ascend=False):
     q, k, v, out = (
         Tensor(
             4,
@@ -70,17 +70,22 @@ def kernel():
     )
     is_causal = Tensor(0, constexpr=True)
     softmax_scale = Tensor(0, constexpr=True)
+    arrange = arrangement
+    if ascend:
+        def arrange(q, k, v, is_causal, softmax_scale, out):
+            return arrangement(q, k, v, is_causal, softmax_scale, out, BLOCK_SIZE_M=32, BLOCK_SIZE_N=32)
+
     return ninetoothed.make(
-        arrangement,
+        arrange,
         application,
         (q, k, v, is_causal, softmax_scale, out),
-        kernel_name="ntops_lab_flash_attention",
+        kernel_name="ntops_lab_flash_attention_ascend" if ascend else "ntops_lab_flash_attention",
     )
 
 
 def run_flash_attention(q, k, v, *, is_causal=False, softmax_scale=1.0):
     out = torch.empty_like(q, dtype=v.dtype)
-    kernel()(q, k, v, is_causal, float(softmax_scale), out)
+    kernel(q.device.type == "npu")(q, k, v, is_causal, float(softmax_scale), out)
     return out
 
 

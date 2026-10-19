@@ -31,6 +31,10 @@ def run(*inputs):
     if bias is None:
         bias = torch.zeros((weight.shape[0],), device=x.device, dtype=x.dtype)
     weight_t = weight.t().contiguous()
+    if x.device.type == "npu":
+        from ._ascend_matmul import matmul
+
+        return matmul(x, weight_t, vector_bias=bias)
     out = torch.empty((x.shape[0], weight.shape[0]), device=x.device, dtype=x.dtype)
     kernel(x, weight_t, bias, out)
     return out

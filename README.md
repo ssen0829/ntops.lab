@@ -105,6 +105,11 @@ out = mm(torch.randn(32, 32, device="cuda", dtype=torch.float16),
 
 ## Run Operator Tests
 
+For Ascend NPU setup, execution commands, and verified results, see
+[Ascend validation](docs/ascend-validation.md).
+中文适配过程、错误修复与验证结果见
+[昇腾算子适配报告](docs/ascend-porting-report.zh-CN.md)。
+
 On a CUDA machine with NineToothed available:
 
 ```bash

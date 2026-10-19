@@ -11,10 +11,15 @@ def arrangement(a, b, out):
 def application(a, b, out):
     out = 0.5 * a * (1.0 + ntl.erf(a * 0.7071067811865476)) * b
 
+def application_npu(a, b, out):
+    out = 0.5 * a * (1.0 + ntl.tanh(0.7978845608028654 * (a + 0.044715 * a * a * a))) * b
+
 kernel = ninetoothed.make(arrangement, application, (Tensor(1), Tensor(1), Tensor(1)), kernel_name="ntops_lab_gate_gelu_mul")
+kernel_npu = ninetoothed.make(arrangement, application_npu, (Tensor(1), Tensor(1), Tensor(1)), kernel_name="ascend_ntops_lab_gate_gelu_mul")
 
 def run(*inputs):
     a, b = inputs
     out = torch.empty_like(a)
-    kernel(a, b, out)
+    selected_kernel = kernel_npu if a.device.type == "npu" else kernel
+    selected_kernel(a, b, out)
     return out

@@ -72,6 +72,10 @@ def _output_hw(x, size, scale_factor):
 def run(*inputs, size=None, scale_factor=2):
     (x,) = inputs
     out_h, out_w = _output_hw(x, size, scale_factor)
+    if x.device.type == "npu":
+        from ._ascend_lookup import bilinear
+
+        return bilinear(x, out_h, out_w)
     temp = torch.empty((x.shape[0], x.shape[1], x.shape[2], out_w), device=x.device, dtype=x.dtype)
     out = torch.empty((x.shape[0], x.shape[1], out_h, out_w), device=x.device, dtype=x.dtype)
     _horizontal_kernel(x.shape[3], out_w)(x, temp, _align_corners_ratio(x.shape[3], out_w))

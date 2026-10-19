@@ -27,6 +27,12 @@ kernel = ninetoothed.make(arrangement, application, (Tensor(2), Tensor(2), Tenso
 def run(*inputs):
     c, a, b = inputs
     out = torch.empty((a.shape[0], a.shape[1], b.shape[2]), device=a.device, dtype=a.dtype)
+    if a.device.type == "npu":
+        from ntops_lab.kernels.linear._ascend_matmul import matmul
+
+        for i in range(a.shape[0]):
+            out[i].copy_(matmul(a[i], b[i], bias=c[i]))
+        return out
     for i in range(a.shape[0]):
         kernel(c[i], a[i], b[i], out[i])
     return out
